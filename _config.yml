@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
+title: GenFactory.io
+url: "https://genfactory.io"
+baseurl: "genfactory.io"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: An introduction to GenFactory.io.
+author: 
+  name: Marco Lustri
+  email: marco.lustri@genfactory.io
+  twitter: thelustriva
 social:
-  name: Hydra Template
+  name: GenFactory.io Engineering
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://genfactory.io
 
 # -----
 # Build
@@ -29,20 +29,7 @@ collections:
   staff_members:
     _hide_content: true
 
-paginate: 10
-paginate_path: "/blog/:num/"
-permalink: pretty
-
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      _options:
-        content:
-          width: 1500
-          height: 2500
   - scope:
       path: ""
       type: "staff_members"
@@ -63,10 +50,6 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
-
-jekyll-archives:
-  enabled:
-    - categories
 
 plugins:
   - jekyll-archives
@@ -89,8 +72,6 @@ _select_data:
     - Facebook
     - Instagram
     - LinkedIn
-    - Pinterest
-    - Tumblr
     - Twitter
     - YouTube
     - RSS
