@@ -1,9 +1,9 @@
-- name: Build Jekyll for GitHub Pages
-  uses: actions/jekyll-build-pages@v1.0.5
-  with:
-    source: null
-    destination: null
-    future: null
-    build_revision: null
-    verbose: null
-    token: null
+name: Build Jekyll for GitHub Pages
+uses: actions/jekyll-build-pages@v1.0.5
+with:
+  source: null
+  destination: null
+  future: null
+  build_revision: null
+  verbose: null
+  token: null
